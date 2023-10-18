@@ -16,6 +16,7 @@ int print_str(va_list val);
 int _strlen(char *string);
 int _strlenchar(const char *string);
 int print_percentage(void);
+int func_binary(va_list val);
 
 int _putchar(char c);
 void int_printf(int d);
