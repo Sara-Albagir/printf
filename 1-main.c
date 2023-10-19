@@ -10,6 +10,7 @@
  */
 int main(void)
 {
-	int_printf(145);
+	_printf("%s\n", "sahar");
+
 	return (0);
 }
