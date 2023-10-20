@@ -33,9 +33,10 @@ int _strlenchar(const char *string);
 int print_percentage(void);
 int func_binary(unsigned int number);
 
-int _printf_ext_1(va_list val, char ch, unsigned int *p_i);
+int another_printf(va_list val, char ch, unsigned int *p_i);
 void int_printf(int d);
 int int_count(int d);
 int _putchar(char c);
+int oct_printf(unsigned int oct);
 
 #endif

@@ -1,19 +1,20 @@
-#include "main.h"
-#include <stdio.h>
 #include <limits.h>
+#include <stdio.h>
+#include "main.h"
 
 /**
- * main - check the code.
+ * main - Entry point
  *
- * Return: Always 0.
- *
- * owner - Sahar Ben Mabrouk
+ * Return: Always 0
  */
 int main(void)
 {
-	int result;
-	
-	result = printf("Hello\n");
-	printf("Total printed characters are: %d\n",result);
+	int len;
+
+	len = _printf("Let's try to printf a simple sentence.\n");
+	_printf("Length:[%d, %i]\n", len, len);
+	_printf("%o\n", 1024);
+	printf("%o\n", 1024);
+
 	return (0);
 }
