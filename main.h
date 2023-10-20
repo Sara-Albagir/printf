@@ -1,23 +1,5 @@
 #ifndef MAIN_H
 #define MAIN_H
-/**
-#include <stdio.h>
-#include <stdlib.h>
-#include <stdarg.h>
-
-typedef struct format
-{
-        char *an;
-        int (*f)();
-} placeholder;
-
-int _printf(const char *format, ...);
-int print_char(va_list val);
-int print_str(va_list val);
-int _strlen(char *string);
-int _strlenchar(const char *string);
-int print_percentage(void);
-int func_binary(va_list val); */
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -41,5 +23,6 @@ int oct_printf(unsigned int oct);
 int unsigned_printf(unsigned int n);
 int hexd_printf(unsigned int num);
 int Ahexd_printf(unsigned int num);
+int STR_printf( char *s);
 
 #endif

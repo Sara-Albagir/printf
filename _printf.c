@@ -69,6 +69,11 @@ int another_printf(va_list val, char ch, unsigned int *p_i)
 			count += print_str(str_val);
 			*p_i_count = *p_i_count + 1;
 			break;
+		case 'S':
+			str_val = va_arg(val, char *);
+			count += STR_printf(str_val);
+			*p_i_count = *p_i_count + 1;
+			break;
 		case 'd':
 		case 'i':
 			num_val = va_arg(val, int);
