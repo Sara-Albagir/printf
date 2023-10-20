@@ -5,7 +5,7 @@
  * Return : count of digit printed
  */
 
-int STR_printf( char *s)
+int STR_printf(char *s)
 {
 	int i, len = 0;
 	int cast;

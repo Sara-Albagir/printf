@@ -13,7 +13,6 @@ int oct_printf(unsigned int oct)
 	int i;
 	int *array;
 	int count = 0;
-	
 	unsigned int last_digit = oct;
 
 	while (oct / 8 != 0)

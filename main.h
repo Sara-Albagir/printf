@@ -23,6 +23,6 @@ int oct_printf(unsigned int oct);
 int unsigned_printf(unsigned int n);
 int hexd_printf(unsigned int num);
 int Ahexd_printf(unsigned int num);
-int STR_printf( char *s);
+int STR_printf(char *s);
 
 #endif
