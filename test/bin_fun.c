@@ -1,10 +1,11 @@
+/**
 #include "main.h"
 
-/**
+
  * func_binary - convert an unsigned int to binary
  * @val: argument
  * Return: 0
- */
+ *
 
 int func_binary(va_list val)
 {
@@ -34,3 +35,4 @@ int func_binary(va_list val)
 	}
 	return (t);
 }
+*/

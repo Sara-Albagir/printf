@@ -1,10 +1,11 @@
+/**
 #include "main.h"
 
-/**
+**
  * print_str - function that write string
  * @val: parameter
  * Return: 1
- */
+ *
 
 int print_str(va_list val)
 {
@@ -29,3 +30,4 @@ int print_str(va_list val)
 		return (l);
 	}
 }
+*/

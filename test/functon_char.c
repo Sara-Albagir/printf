@@ -1,10 +1,11 @@
+/**
 #include "main.h"
 
-/**
+**
  * print_char - functon that prints a character
  * @val: the functon argument
  * Return: 1
- */
+ *
 
 int print_char(va_list val)
 {
@@ -14,3 +15,4 @@ int print_char(va_list val)
 	_putchar(string);
 	return (1);
 }
+*/

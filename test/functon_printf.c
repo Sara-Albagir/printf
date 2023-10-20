@@ -1,10 +1,11 @@
+/**
 #include "main.h"
 
-/**
+
  * _printf - my main function
  * @format: argument
  * Return: 0
- */
+ *
 
 int _printf(const char *format, ...)
 {
@@ -40,3 +41,4 @@ Mycode:
 	va_end(args);
 	return (l);
 }
+*/
