@@ -91,6 +91,11 @@ int another_printf(va_list val, char ch, unsigned int *p_i)
 			count += unsigned_printf(num_val);
 			*p_i_count = *p_i_count + 1;
 			break;
+		case 'x':
+			num_val = va_arg(val, unsigned int);
+			count += hexd_printf(num_val);
+			*p_i_count = *p_i_count + 1;
+			break;
 		default:
 			count += print_char('%');
 			count += print_char(ch);

@@ -39,5 +39,6 @@ int int_count(int d);
 int _putchar(char c);
 int oct_printf(unsigned int oct);
 int unsigned_printf(unsigned int n);
+int hexd_printf(unsigned int num);
 
 #endif
