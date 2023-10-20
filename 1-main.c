@@ -12,9 +12,9 @@ int main(void)
 	int len;
 	int len2;
 
-	len = _printf("%x\n", 1024);
-	len2 = printf("%x\n", 1024);
+	len = _printf("%X\n", 1024);
+	len2 = printf("%X\n", 1024);
 	printf("Length:[%i, %i]\n", len, len2);
-	_printf("%x\n", -1024);
+	_printf("%X\n", -1024);
 	return (0);
 }
