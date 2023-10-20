@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+#include <limits.h>
 
 /**
  * main - check the code.
@@ -10,7 +11,9 @@
  */
 int main(void)
 {
-	_printf("%s\n", "sahar");
-
+	int result;
+	
+	result = printf("Hello\n");
+	printf("Total printed characters are: %d\n",result);
 	return (0);
 }
