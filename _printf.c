@@ -61,6 +61,7 @@ int another_printf(va_list val, char ch, unsigned int *p_i)
 	int count = 0, num_val;
 	unsigned int *p_i_count = p_i;
 	char *str_val;
+	void *ptr_val;
 
 	switch (ch)
 	{
@@ -104,6 +105,11 @@ int another_printf(va_list val, char ch, unsigned int *p_i)
 		case 'X':
 			num_val = va_arg(val, unsigned int);
 			count += Ahexd_printf(num_val);
+			*p_i_count = *p_i_count + 1;
+			break;
+		case 'p':
+			ptr_val = va_arg(val, void*);
+			count += ptr_printf(ptr_val);
 			*p_i_count = *p_i_count + 1;
 			break;
 		default:

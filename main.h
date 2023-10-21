@@ -24,5 +24,6 @@ int unsigned_printf(unsigned int n);
 int hexd_printf(unsigned int num);
 int Ahexd_printf(unsigned int num);
 int STR_printf(char *s);
+int ptr_printf(void *p);
 
 #endif
